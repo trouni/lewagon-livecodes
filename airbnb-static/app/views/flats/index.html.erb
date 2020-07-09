@@ -1,0 +1,13 @@
+<h1>Static Airbnb</h1>
+<!-- Display a list of flats -->
+<ul>
+  <% @flats.each do |flat| %>
+    <li>
+      <p>
+        <%#= link_to "Text of your link", "Path of your link" %>
+        <%= link_to flat['name'], "/flats/#{flat['id']}" %>
+        <%= flat['priceCurrency'] %><%= flat['price'] %>
+      </p>
+    </li>
+  <% end %>
+</ul>
