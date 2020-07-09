@@ -1,0 +1,12 @@
+<h1 class="mb-5">I lost my pet!!!! Help me!</h1>
+
+<%= link_to "List your lost pet", new_pet_path, class: 'btn btn-outline-primary' %>
+
+<h5>These pets that have been lost!</h5>
+<p>Please help the owner find them...</p>
+
+<ul class='list-group'>
+  <% @pets.each do |pet| %>
+    <li class='list-group-item'><%= link_to pet.name, pet_path(pet) %> (<%= pet.species %>)</li>
+  <% end %>
+</ul>

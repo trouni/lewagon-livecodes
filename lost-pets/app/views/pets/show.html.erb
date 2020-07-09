@@ -1,0 +1,8 @@
+<h1>Details for <%= @pet.name %> (<small><%= @pet.species %></small>)</h1>
+<p>Lost <%= time_ago_in_words @pet.lost_on %> ago</p>
+
+<p>Location: <%= @pet.location %></p>
+<p>Wanted alive? <%= @pet.alive ? 'YES' : 'NO' %></p>
+<p>Reward: ¥<%= @pet.reward %></p>
+
+<%= link_to "Back", pets_path, class: 'btn btn-outline-primary' %>

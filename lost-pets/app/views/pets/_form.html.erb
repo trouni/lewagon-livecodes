@@ -1,0 +1,9 @@
+<%= simple_form_for(pet) do |f| %>
+  <%= f.input :name %>
+  <%= f.input :species, collection: Pet::SPECIES %>
+  <%= f.input :location %>
+  <%= f.input :alive, label: 'Wanted alive' %>
+  <%= f.input :reward, input_html: { step: 100 } %>
+  <%= f.input :lost_on %>
+  <%= f.submit pet.persisted? ? 'Update your pet\'s details' : 'List your pet', class: 'btn btn-primary w-100'  %>
+<% end %>
