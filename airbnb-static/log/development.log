@@ -1,0 +1,736 @@
+Started GET "/" for ::1 at 2020-06-23 19:08:15 +0900
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/trouni/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/trouni/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.2ms | Allocations: 482)
+Completed 200 OK in 35ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 3292)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:14:09 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for FlatsController):
+  
+actionpack (6.0.3.2) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.2) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-06-23 19:15:18 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by FlatsController#index as HTML
+Completed 406 Not Acceptable in 7ms (ActiveRecord: 0.0ms | Allocations: 2235)
+
+
+  
+ActionController::MissingExactTemplate (FlatsController#index is missing a template for request formats: text/html):
+  
+actionpack (6.0.3.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.3.2) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.3.2) lib/active_support/callbacks.rb:135:in `run_callbacks'
+actionpack (6.0.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3.2) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3.2) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3.2) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3.2) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.2) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-06-23 19:16:26 +0900
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 74)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/trouni/Code/lewagon/livecodes/387/airbnb-static/public/packs
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.43.0
+Time: 2109ms
+Built at: 06/23/2020 7:16:31 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 5187ms (Views: 5185.3ms | ActiveRecord: 0.0ms | Allocations: 19905)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:16:42 +0900
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 5258)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:17:44 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by FlatsController#index as HTML
+  Rendering flats/testview.html.erb within layouts/application
+  Rendered flats/testview.html.erb within layouts/application (Duration: 0.3ms | Allocations: 84)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 5218)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:18:05 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 4607)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:19:57 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 109)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 44ms (Views: 41.5ms | ActiveRecord: 0.0ms | Allocations: 5244)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:21:49 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 103)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 5251)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:23:41 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1712ms (Views: 20.2ms | ActiveRecord: 0.0ms | Allocations: 6862)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:25:18 +0900
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 191)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 504ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 6738)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:25:29 +0900
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 202)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 364ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 6747)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:25:32 +0900
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 28)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1261ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 7633)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:25:47 +0900
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 204)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 497ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 6756)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:26:28 +0900
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 232)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 528ms (Views: 42.0ms | ActiveRecord: 0.0ms | Allocations: 6782)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:26:47 +0900
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 477ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 6787)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:27:06 +0900
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 236)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 538ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 6788)
+
+
+Started GET "/flats/3" for ::1 at 2020-06-23 19:31:33 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by FlatsController#show as HTML
+  Parameters: {"id"=>"3"}
+Completed 406 Not Acceptable in 10ms (ActiveRecord: 0.0ms | Allocations: 2239)
+
+
+  
+ActionController::MissingExactTemplate (FlatsController#show is missing a template for request formats: text/html):
+  
+actionpack (6.0.3.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.3.2) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.3.2) lib/active_support/callbacks.rb:135:in `run_callbacks'
+actionpack (6.0.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3.2) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3.2) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3.2) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3.2) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.2) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/flats/3" for ::1 at 2020-06-23 19:31:59 +0900
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by FlatsController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering flats/show.html.erb within layouts/application
+  Rendered flats/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 81)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 35.9ms | ActiveRecord: 0.0ms | Allocations: 5264)
+
+
+Started GET "/flats/2" for ::1 at 2020-06-23 19:32:03 +0900
+Processing by FlatsController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendering flats/show.html.erb within layouts/application
+  Rendered flats/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 4262)
+
+
+Started GET "/flats/1" for ::1 at 2020-06-23 19:32:05 +0900
+Processing by FlatsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering flats/show.html.erb within layouts/application
+  Rendered flats/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 4260)
+
+
+Started GET "/flats/145" for ::1 at 2020-06-23 19:33:18 +0900
+Processing by FlatsController#show as HTML
+  Parameters: {"id"=>"145"}
+  Rendering flats/show.html.erb within layouts/application
+  Rendered flats/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 986)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2509)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <h1>Show page for my flat</h1>
+    2: <%= @flat['name'] %>
+    3: <%= @flat['price'] %>
+  
+app/views/flats/show.html.erb:2
+Started PUT "/__web_console/repl_sessions/951ab721ad59ff89089495039cf38cb1" for ::1 at 2020-06-23 19:34:39 +0900
+Started PUT "/__web_console/repl_sessions/951ab721ad59ff89089495039cf38cb1" for ::1 at 2020-06-23 19:34:42 +0900
+Started PUT "/__web_console/repl_sessions/951ab721ad59ff89089495039cf38cb1" for ::1 at 2020-06-23 19:34:47 +0900
+Started GET "/flats/145" for ::1 at 2020-06-23 19:35:18 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by FlatsController#show as HTML
+  Rendering flats/show.html.erb within layouts/application
+  Rendered flats/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 825)
+Completed 500 Internal Server Error in 828ms (ActiveRecord: 0.0ms | Allocations: 3150)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <h1>Show page for my flat</h1>
+    2: <%= @flat['name'] %>
+    3: <%= @flat['price'] %>
+  
+app/views/flats/show.html.erb:2
+Started GET "/flats/145" for ::1 at 2020-06-23 19:35:33 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/flats/145"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/flats/145/test" for ::1 at 2020-06-23 19:35:36 +0900
+Processing by FlatsController#show as HTML
+  Parameters: {"id"=>"145"}
+  Rendering flats/show.html.erb within layouts/application
+  Rendered flats/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 872)
+Completed 500 Internal Server Error in 429ms (ActiveRecord: 0.0ms | Allocations: 3189)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <h1>Show page for my flat</h1>
+    2: <%= @flat['name'] %>
+    3: <%= @flat['price'] %>
+  
+app/views/flats/show.html.erb:2
+Started GET "/flats/145" for ::1 at 2020-06-23 19:35:49 +0900
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by FlatsController#show as HTML
+  Parameters: {"id"=>"145"}
+  Rendering flats/show.html.erb within layouts/application
+  Rendered flats/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 825)
+Completed 500 Internal Server Error in 459ms (ActiveRecord: 0.0ms | Allocations: 3145)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <h1>Show page for my flat</h1>
+    2: <%= @flat['name'] %>
+    3: <%= @flat['price'] %>
+  
+app/views/flats/show.html.erb:2
+Started PUT "/__web_console/repl_sessions/ed4ae0f6dec27a6c95747319f0362d03" for ::1 at 2020-06-23 19:35:51 +0900
+Started PUT "/__web_console/repl_sessions/ed4ae0f6dec27a6c95747319f0362d03" for ::1 at 2020-06-23 19:35:54 +0900
+Started GET "/flats/145" for ::1 at 2020-06-23 19:36:07 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by FlatsController#show as HTML
+  Parameters: {"id"=>"145"}
+  Rendering flats/show.html.erb within layouts/application
+  Rendered flats/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 872)
+Completed 500 Internal Server Error in 469ms (ActiveRecord: 0.0ms | Allocations: 3212)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <h1>Show page for my flat</h1>
+    2: <%= @flat['name'] %>
+    3: <%= @flat['price'] %>
+  
+app/views/flats/show.html.erb:2
+Started GET "/flats/145" for ::1 at 2020-06-23 19:36:24 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by FlatsController#show as HTML
+  Parameters: {"id"=>"145"}
+  Rendering flats/show.html.erb within layouts/application
+  Rendered flats/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 8)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 496ms (Views: 23.6ms | ActiveRecord: 0.0ms | Allocations: 5953)
+
+
+Started GET "/flats/145" for ::1 at 2020-06-23 19:36:46 +0900
+Processing by FlatsController#show as HTML
+  Parameters: {"id"=>"145"}
+  Rendering flats/show.html.erb within layouts/application
+  Rendered flats/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 134)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 734ms (Views: 18.8ms | ActiveRecord: 0.0ms | Allocations: 6700)
+
+
+Started GET "/flats/146" for ::1 at 2020-06-23 19:36:49 +0900
+Processing by FlatsController#show as HTML
+  Parameters: {"id"=>"146"}
+  Rendering flats/show.html.erb within layouts/application
+  Rendered flats/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 873)
+Completed 500 Internal Server Error in 399ms (ActiveRecord: 0.0ms | Allocations: 3051)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <h1>Show page for flat <%= @flat['id'] %></h1>
+    2: <%= @flat['name'] %>
+    3: <%= @flat['price'] %>
+  
+app/views/flats/show.html.erb:1
+Started GET "/flats/148" for ::1 at 2020-06-23 19:36:55 +0900
+Processing by FlatsController#show as HTML
+  Parameters: {"id"=>"148"}
+  Rendering flats/show.html.erb within layouts/application
+  Rendered flats/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 387ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 5660)
+
+
+Started GET "/flats" for ::1 at 2020-06-23 19:37:05 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/flats"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-06-23 19:37:09 +0900
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 239)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 446ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 6013)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:38:09 +0900
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 215)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 531ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 6762)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:38:12 +0900
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 34)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 451ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 5670)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:38:14 +0900
+Processing by FlatsController#index as HTML
+Started GET "/" for ::1 at 2020-06-23 19:38:14 +0900
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 34)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 393ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 8647)
+
+
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 34)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 304ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 11166)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:38:40 +0900
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 209)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 485ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 6746)
+
+
+Started GET "/flats/145" for ::1 at 2020-06-23 19:38:42 +0900
+Processing by FlatsController#show as HTML
+  Parameters: {"id"=>"145"}
+  Rendering flats/show.html.erb within layouts/application
+  Rendered flats/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 153)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 821ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 5949)
+
+
+Started GET "/flats/145" for ::1 at 2020-06-23 19:38:45 +0900
+Processing by FlatsController#show as HTML
+  Parameters: {"id"=>"145"}
+  Rendering flats/show.html.erb within layouts/application
+  Rendered flats/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 12)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1234ms (Views: 56.8ms | ActiveRecord: 0.0ms | Allocations: 5663)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:39:06 +0900
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 241)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 705ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 6794)
+
+
+Started GET "/flats/205" for ::1 at 2020-06-23 19:39:15 +0900
+Processing by FlatsController#show as HTML
+  Parameters: {"id"=>"205"}
+  Rendering flats/show.html.erb within layouts/application
+  Rendered flats/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 151)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 413ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 5946)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:40:46 +0900
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 288)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1344ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 6833)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:43:29 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1142)
+Completed 500 Internal Server Error in 607ms (ActiveRecord: 0.0ms | Allocations: 4042)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"flats", "id"=>145, "imageUrl"=>"https://raw.githubusercontent.com/lewagon/flats-boilerplate/master/images/flat1.jpg", "lat"=>48.884211, "lng"=>2.34689, "name"=>"Charm at the Steps of the Sacre Coeur/Montmartre", "price"=>164, "priceCurrency"=>"EUR"}, missing required keys: [:id]):
+     5:     <li>
+     6:       <p>
+     7:         <%#= link_to "Text of your link", "Path of your link" %>
+     8:         <%= link_to flat['name'], flat_path(flat) %>
+     9:         <%= flat['priceCurrency'] %><%= flat['price'] %>
+    10:       </p>
+    11:     </li>
+  
+app/views/flats/index.html.erb:8
+app/views/flats/index.html.erb:4:in `each'
+app/views/flats/index.html.erb:4
+Started GET "/" for ::1 at 2020-06-23 19:44:16 +0900
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 351)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 555ms (Views: 29.0ms | ActiveRecord: 0.0ms | Allocations: 6906)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:44:19 +0900
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 157)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 381ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 5786)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:44:20 +0900
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 466ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 5790)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:44:21 +0900
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 404ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 5793)
+
+
+Started GET "/" for ::1 at 2020-06-23 19:44:21 +0900
+Processing by FlatsController#index as HTML
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 362ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 5785)
+
+
